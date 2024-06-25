@@ -9,13 +9,13 @@ function App() {
   if (!loading) return <h2>Loading.......</h2>;
   console.log(user, loading);
   return (
-    <>
+    <div className="latoFont">
       <Navbar />
       <div className="min-h-[calc(100vh-293px)] py-3 w-[95%] md:w-[85%] mx-auto">
         <Outlet />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
