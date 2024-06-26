@@ -1,11 +1,11 @@
 import Banner from "../../Components/Banner/Banner";
-import Test from "../../Components/Test";
+import Skills from "../../Layouts/Skills/Skills";
 
 const Home = () => {
     return (
         <div>
             <Banner/>
-           <Test/>
+            <Skills/>
         </div>
     );
 };
